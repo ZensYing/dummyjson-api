@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class=" h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+
+   
+    <div class=" container mx-auto h-screen flex items-center justify-center">
+        <div class=" grid grid-cols-1 md:grid-cols-2   shadow-lg rounded-lg p-8 bg-white ">
+            <div class=" inline-block">
+                <form id="loginForm" class="">
+                    <div class="mb-5">
+                        <label for="username" class="font-semibold text-sm text-gray-600 pb-1 block">Username</label>
+                        <input type="text" id="username" placeholder="Username"
+                            class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="password" class="font-semibold text-sm text-gray-600 pb-1 block">passwword</label>
+                        <input type="password" id="password"
+                            class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Password" required>
+
+                    </div>
+                    <!-- <button type="submit">Login</button> -->
+                    <button type="submit" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
+                </form>
+            </div>
+            <div class="flex items-center justify-center">
+                <img class="w-96" src="https://assets-v2.lottiefiles.com/a/1d3a85ac-1184-11ee-9ec5-63dd7c736df9/fokktW0wa7.gif" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="hide_extension.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@1.7.0/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
