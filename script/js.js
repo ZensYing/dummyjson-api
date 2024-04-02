@@ -1,3 +1,4 @@
+
 async function fetchProducts() {
   const container = document.getElementById("productContainer");
   try {
