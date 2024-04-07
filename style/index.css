@@ -1,0 +1,8 @@
+
+.bg-prosduct{
+    background-image: url("../svg/bg-1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
